@@ -27,6 +27,9 @@ function changeBackgroundColor() {
 	if (this.value) {
 		document.body.style.backgroundColor = this.value;
 	}
+	else {
+		document.body.style.backgroundColor = '#ddd';
+	}
 }
 
 document.querySelector('.input input').addEventListener('input', enableNext);
