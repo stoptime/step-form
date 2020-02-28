@@ -133,11 +133,6 @@ const stepPrevNext = (num) => {
 	return buttonGroup;
 };
 
-const doStep = (hide, show) => {
-	hide.classList.add('hide');
-	show.classList.add('show');
-};
-
 let i = 0;
 for (let step of steps) {
 	let buttons = stepPrevNext(i);
